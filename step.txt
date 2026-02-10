@@ -1,0 +1,12 @@
+// API
+1. Endpoint para retornar las variables del diccionario de datos.
+2. Endpoint para la grafica de barras - especificacion de variables.
+3. Endpoint para la grafica de boxplot - varaibles de tipo numericas.
+4. Endpoint para la grafica de radar - variables de categoricas - especificacion de variables.
+
+// SERVICIOS
+1. Refactorizar el codigo de python que usa panda y numpy para que sea un servicio.
+2. Conectar los servicios con las apis.
+
+// DATOS
+1. diccionario de datos en formato excel.
