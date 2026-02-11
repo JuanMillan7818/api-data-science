@@ -7,17 +7,23 @@ import math
 router = APIRouter()
 
 
+# response_model: Define el esquema Pydantic utilizado para validar y serializar la respuesta.
+# Garantiza que el cliente reciba solo los campos definidos en VariableListResponse.
 @router.get("/variables", response_model=schemas.VariableListResponse)
 async def get_variables(
     page: int = Query(1, ge=1),
     size: int = Query(20, ge=1, le=100),
     search: Optional[str] = None
 ):
+    """
+    Obtiene lista paginada de variables.
+    Permite filtrar por nombre o etiqueta mediante el parámetro 'search'.
+    """
     try:
-        # Get all variables from the service
+        # Obtener todas las variables del servicio
         all_vars = centenarios_service.get_variables_from_dictionary()
 
-        # Filter by search term if provided
+        # Filtrar por término de búsqueda si se proporciona
         if search:
             search_lower = search.lower()
             all_vars = [
@@ -27,7 +33,7 @@ async def get_variables(
                 any(search_lower in k.lower() for k in v.get("keywords", []))
             ]
 
-        # Create Variable objects
+        # Crear objetos Variable (Pydantic models)
         variable_objects = []
         for v in all_vars:
             categories_data = v.get("categories", [])
@@ -50,7 +56,7 @@ async def get_variables(
                 )
             )
 
-        # Pagination
+        # Paginación
         total = len(variable_objects)
         start = (page - 1) * size
         end = start + size
@@ -70,12 +76,19 @@ async def get_variables(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+# response_model: Esquema para la respuesta de completitud.
+# Filtra y documenta autom&aacute;ticamente la estructura de salida (CompletenessResponse).
 @router.get("/completeness", response_model=schemas.CompletenessResponse)
 async def get_completeness_stats(
     page: int = Query(1, ge=1),
     size: int = Query(20, ge=1, le=100),
-    dtype: Optional[str] = Query(None, description="Filter by variable type")
+    dtype: Optional[str] = Query(
+        None, description="Filtrar por tipo de variable")
 ):
+    """
+    Obtiene estadísticas de completitud para las variables.
+    Soporta filtrado por dtype (numeric, categorical, etc.) y paginación.
+    """
     try:
         completeness_data = centenarios_service.get_variable_completeness(
             page=page, size=size, dtype=dtype
@@ -96,8 +109,14 @@ async def get_completeness_stats(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+# response_model: Esquema para estadísticas globales.
+# Asegura que la API retorne un objeto StatsResponse válido.
 @router.get("/stats", response_model=schemas.StatsResponse)
 async def get_stats():
+    """
+    Obtiene estadísticas globales del dataset.
+    Retorna conteos por tipo de dato y porcentaje de completitud global.
+    """
     try:
         stats = centenarios_service.get_variable_stats()
         return schemas.StatsResponse(**stats)
