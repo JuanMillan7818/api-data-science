@@ -13,6 +13,10 @@ class Variable(BaseModel):
     dtype: Optional[str] = "unknown"
     categories: Optional[List[Category]] = []
     keywords: Optional[List[str]] = []
+    valid_percentage: Optional[float] = 0.0
+    null_count: Optional[int] = 0
+    non_null_count: Optional[int] = 0
+    total_rows: Optional[int] = 0
 
 
 class VariableListResponse(BaseModel):
@@ -34,6 +38,10 @@ class CompletenessItem(BaseModel):
 
 class CompletenessResponse(BaseModel):
     items: List[CompletenessItem]
+    total: int
+    page: int
+    size: int
+    has_more: bool
 
 
 class StatsItem(BaseModel):

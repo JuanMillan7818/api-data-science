@@ -42,7 +42,11 @@ async def get_variables(
                         "variable_label") else None,
                     dtype=v.get("dtype", "unknown"),
                     categories=categories_objs,
-                    keywords=v.get("keywords", [])
+                    keywords=v.get("keywords", []),
+                    valid_percentage=v.get("valid_percentage", 0.0),
+                    null_count=v.get("null_count", 0),
+                    non_null_count=v.get("non_null_count", 0),
+                    total_rows=v.get("total_rows", 0)
                 )
             )
 
@@ -67,27 +71,27 @@ async def get_variables(
 
 
 @router.get("/completeness", response_model=schemas.CompletenessResponse)
-async def get_completeness_stats():
+async def get_completeness_stats(
+    page: int = Query(1, ge=1),
+    size: int = Query(20, ge=1, le=100),
+    dtype: Optional[str] = Query(None, description="Filter by variable type")
+):
     try:
-        # Since we only have the dictionary, we return mock/default stats for now
-        # OR we just return the list of variables with 0 stats.
-        # The frontend expects these fields.
+        completeness_data = centenarios_service.get_variable_completeness(
+            page=page, size=size, dtype=dtype
+        )
 
-        all_vars = centenarios_service.get_variables_from_dictionary()
+        items = [
+            schemas.CompletenessItem(**item) for item in completeness_data['items']
+        ]
 
-        items = []
-        for v in all_vars:
-            items.append(schemas.CompletenessItem(
-                variable=str(v.get("variable", "")),
-                valid_percentage=0.0,
-                null_count=0,
-                non_null_count=0,
-                total_rows=0,
-                dtype=v.get("dtype", "unknown")
-            ))
-
-        return schemas.CompletenessResponse(items=items)
-
+        return schemas.CompletenessResponse(
+            items=items,
+            total=completeness_data['total'],
+            page=completeness_data['page'],
+            size=completeness_data['size'],
+            has_more=completeness_data['has_more']
+        )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

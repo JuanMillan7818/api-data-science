@@ -6,9 +6,50 @@ import math
 class CentenariosService:
     PATH_FILE = Path(__file__).resolve(
     ).parents[2] / "centenarios/centenarios_diccionario.xlsx"
+    PATH_DATA_FILE = Path(__file__).resolve(
+    ).parents[2] / "centenarios/centenarios_metabolomica.xlsx"
 
     def __init__(self):
-        print("CentenariosService initialized" + str(self.PATH_FILE))
+        print("CentenariosService initialized " + str(self.PATH_FILE))
+        self.completeness_map = self._calculate_completeness()
+
+    def _calculate_completeness(self):
+        """
+        Loads the data file and calculates completeness statistics for each variable.
+        """
+        try:
+            if not self.PATH_DATA_FILE.exists():
+                print(f"Data file not found: {self.PATH_DATA_FILE}")
+                return {}
+
+            df = pd.read_excel(self.PATH_DATA_FILE)
+            total_rows = len(df)
+            stats = {}
+
+            # Calculate stats for each column
+            for col in df.columns:
+                non_null = int(df[col].count())
+                null_count = total_rows - non_null
+                pct = (non_null / total_rows) * 100 if total_rows > 0 else 0.0
+
+                # Normalize key to match dictionary variable names (usually lowercase/stripped in our service)
+                # The dictionary service lowercases the 'Variable' column from the dictionary file.
+                # We should try to match that.
+                key = str(col).strip()
+
+                stats[key] = {
+                    "valid_percentage": pct,
+                    "null_count": null_count,
+                    "non_null_count": non_null,
+                    "total_rows": total_rows
+                }
+
+            print(f"Loaded completeness stats for {len(stats)} variables.")
+            return stats
+
+        except Exception as e:
+            print(f"Error calculating completeness: {str(e)}")
+            return {}
 
     def get_variables_from_dictionary(self):
         """
@@ -131,12 +172,23 @@ class CentenariosService:
                     keywords = [k.strip() for k in str(kw_val).replace(
                         '\n', ',').split(',') if k.strip()]
 
+                # Merge completeness data
+                # We try to find the variable name in the completeness map
+                # The dictionary variable name is 'name' here.
+                comp_data = self.completeness_map.get(name, {
+                    "valid_percentage": 0.0,
+                    "null_count": 0,
+                    "non_null_count": 0,
+                    "total_rows": 0
+                })
+
                 results.append({
                     'variable': name,
                     'variable_label': variable_label,
                     'dtype': dtype,
                     'categories': categories,
-                    'keywords': keywords
+                    'keywords': keywords,
+                    **comp_data  # Spread the completeness stats into the variable object
                 })
 
             return results
@@ -146,6 +198,43 @@ class CentenariosService:
                 f"Excel file not found at {self.PATH_FILE}")
         except Exception as e:
             raise Exception(f"Error reading Excel file: {str(e)}")
+
+    def get_variable_completeness(self, page: int = 1, size: int = 20, dtype: str = None):
+        """
+        Returns completeness statistics with pagination.
+        """
+        variables = self.get_variables_from_dictionary()
+
+        # Filter by dtype if provided
+        if dtype and dtype != "all":
+            variables = [v for v in variables if v.get('dtype') == dtype]
+
+        total = len(variables)
+
+        # Map to completeness items using the data already merged in get_variables_from_dictionary
+        completeness_items = []
+        for v in variables:
+            completeness_items.append({
+                "variable": v['variable'],
+                "valid_percentage": v.get('valid_percentage', 0.0),
+                "null_count": v.get('null_count', 0),
+                "non_null_count": v.get('non_null_count', 0),
+                "total_rows": v.get('total_rows', 0),
+                "dtype": v['dtype']
+            })
+
+        # Pagination
+        start = (page - 1) * size
+        end = start + size
+        paginated_items = completeness_items[start:end]
+
+        return {
+            "items": paginated_items,
+            "total": total,
+            "page": page,
+            "size": size,
+            "has_more": end < total
+        }
 
     def get_variable_stats(self):
         """
@@ -168,14 +257,11 @@ class CentenariosService:
             else:
                 counts['unknown'] += 1
 
-        # Mocking completeness for now as we don't have real data values yet, just the dictionary
-        # In a real scenario, this would calculate non-nulls / total cells
-        completeness = 0.0  # Default to 0 or 100? User has dictionary, maybe 100% defined?
-        # But looking at the component, it expects a percentage.
-        # Since we only have metadata, let's return 0 or calculate based on fields filled in excel?
-        # A dictionary is always "complete" in terms of definition, but maybe not data.
-        # Let's mock it to 100 for definitions or 0 for data.
-        # The prompt implies "stats de total de Numericas y demas", so variable counts are key.
+        # Calculate global completeness (average valid percentage of all variables)
+        total_valid_pct = sum(v.get('valid_percentage', 0.0)
+                              for v in variables)
+        avg_completeness = total_valid_pct / \
+            len(variables) if len(variables) > 0 else 0.0
 
         return {
             "stats": [
@@ -189,7 +275,7 @@ class CentenariosService:
                     "value": counts["datetime"], "type": "datetime"},
             ],
             "total_variables": len(variables),
-            "completeness": 0.0
+            "completeness": avg_completeness
         }
 
 
