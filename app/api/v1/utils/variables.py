@@ -8,6 +8,6 @@ router = APIRouter(
 
 @router.get("/")
 def list_variables_from_dictionary():
-    # USAR EL SERVICIO
-    return centenarios_service.get_variables_from_dictionary()
+    # USAR EL SERVICIO - Todas las variables (diccionario + dataset)
+    return centenarios_service.get_all_variables()
     

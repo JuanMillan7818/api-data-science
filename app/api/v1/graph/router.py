@@ -20,8 +20,8 @@ async def get_variables(
     Permite filtrar por nombre o etiqueta mediante el parámetro 'search'.
     """
     try:
-        # Obtener todas las variables del servicio
-        all_vars = centenarios_service.get_variables_from_dictionary()
+        # Obtener TODAS las variables del servicio (diccionario + dataset)
+        all_vars = centenarios_service.get_all_variables()
 
         # Filtrar por término de búsqueda si se proporciona
         if search:
@@ -37,9 +37,14 @@ async def get_variables(
         variable_objects = []
         for v in all_vars:
             categories_data = v.get("categories", [])
-            categories_objs = [
-                schemas.Category(code=c['code'], value=c['value']) for c in categories_data
-            ]
+            categories_objs = []
+            
+            # Validar que las categorías tengan el formato correcto
+            for c in categories_data:
+                if isinstance(c, dict) and 'code' in c and 'value' in c:
+                    categories_objs.append(
+                        schemas.Category(code=c['code'], value=c['value'])
+                    )
 
             variable_objects.append(
                 schemas.Variable(
@@ -111,6 +116,22 @@ async def get_completeness_stats(
 
 # response_model: Esquema para estadísticas globales.
 # Asegura que la API retorne un objeto StatsResponse válido.
+@router.get("/high-completeness-vars")
+async def get_high_completeness_variables():
+    """
+    Retorna la lista de variables con ≥90% de completitud.
+    """
+    try:
+        high_comp_vars = centenarios_service.get_high_completeness_variables()
+        return {
+            "variables": high_comp_vars,
+            "total": len(high_comp_vars),
+            "threshold": "≥90%"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.get("/stats", response_model=schemas.StatsResponse)
 async def get_stats():
     """
@@ -120,5 +141,16 @@ async def get_stats():
     try:
         stats = centenarios_service.get_variable_stats()
         return schemas.StatsResponse(**stats)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/dataset/info")
+async def get_dataset_info():
+    """
+    Obtiene información del dataset.
+    """
+    try:
+        info = centenarios_service.get_dataset_info()
+        return schemas.DatasetInfoResponse(**info)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

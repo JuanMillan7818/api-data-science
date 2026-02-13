@@ -110,22 +110,6 @@ print(len(data_only))
 set_a = list(data_keys)
 set_b = list(dicc_keys)
 
-from difflib import SequenceMatcher
-def similarity(a, b):
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
-
-similar_pairs = []
-
-threshold = 0.75
-for a in set_a:
-    for b in set_b:
-        score = similarity(a, b)
-        if score >= threshold:
-            similar_pairs.append((a, b, round(score, 2)))
-
-similar_pairs
-
-pip install streamlit
 
 df.describe()
 

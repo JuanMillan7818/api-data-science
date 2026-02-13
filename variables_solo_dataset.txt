@@ -1,0 +1,71 @@
+Variables que están en el dataset pero NO en el diccionario:
+
+ACA_IgG
+ACA_IgM
+AMA M2
+Ageusia.1
+Anosmia.1
+AusenciaComorb
+B2GPI_IgG
+B2GPI_IgM
+CEDULA
+CENP-B
+Caja
+CatSatisVida.1
+Cefalea.1
+Confusion.1
+Congestion.1
+DSF70
+Diarra.1
+Disnea.1
+Disnea.2
+Dolorart.1
+Dolormuscu.1
+Edad
+Edema.1
+Edema.2
+Enfneuro.1
+Fatiga.1
+Fatiga.2
+Fiebre38.1
+HipotFinBioq
+Histones
+Jo-1
+Ku
+Lenguaje.1
+Lugnacimiento
+MPO total ng/mL
+MPO-DNA 10% estandar
+MPO-DNA 2% estandar
+MPO_DNA OD
+Mareo.1
+Memoria.1
+Mi-2
+Nucleosomes
+Número
+Odinofagia.1
+Orienta.1
+Otrosinto.1
+P0
+PCNA
+PM-Scl
+PerVisión.1
+PosCOVID
+PosCOVIDVac
+PunSatisVida.1
+Repetidos
+SS-A/Ro52
+SS-A/Ro60
+SS-B/La
+Scl70
+SmD1
+TPO
+Tg
+Tiempo entre visita 1 y 2
+Tinnitus.1
+Tos.1
+U1-snRNP
+VacCOVID
+Vomito.1
+dsDNA
+whoqol_age_global
