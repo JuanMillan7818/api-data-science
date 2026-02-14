@@ -47,7 +47,6 @@ Odinofagia.1
 Orienta.1
 Otrosinto.1
 P0
-PCNA
 PM-Scl
 PerVisión.1
 PosCOVID

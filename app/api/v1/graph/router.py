@@ -154,3 +154,15 @@ async def get_dataset_info():
         return schemas.DatasetInfoResponse(**info)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/numeric/stats")
+async def get_numeric_stats():
+    """
+    Obtiene estadísticas descriptivas para variables numéricas.
+    Útil para generar gráficos boxplot en el frontend.
+    """
+    try:
+        stats = centenarios_service.get_numeric_stats()
+        return stats
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

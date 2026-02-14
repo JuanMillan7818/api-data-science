@@ -172,10 +172,14 @@ class CentenariosService:
 
             # Agrupar por variable
             grouped = df.groupby('variable')
-
+            
             results = []
-
+            
             for name, group in grouped:
+                # SOLO procesar variables que existen en el dataset
+                if name not in self.df_data.columns:
+                    continue
+                    
                 first_row = group.iloc[0]
                 variable_label = first_row.get('variable_label')
                 if pd.isna(variable_label) or variable_label == 'nan':
@@ -466,6 +470,168 @@ class CentenariosService:
             print(f"ERROR en _infer_from_dataset para variable {var_name}: {str(e)}")
             return "unknown", []
 
+    def analyze_missing_by_patient(self):
+        """
+        Analiza la distribución de valores missing por paciente (fila).
+        Evalúa si el missing está concentrado en ciertos pacientes o distribuido homogéneamente.
+        """
+        print("Analizando missing por paciente...")
+        
+        # Calcular valores nulos por fila (paciente)
+        missing_by_patient = self.df_data.isnull().sum(axis=1)
+        total_columns = len(self.df_data.columns)
+        
+        # Calcular porcentaje de missing por paciente
+        missing_pct_by_patient = (missing_by_patient / total_columns) * 100
+        
+        # Estadísticas básicas
+        max_missing_pct = missing_pct_by_patient.max()
+        mean_missing_pct = missing_pct_by_patient.mean()
+        min_missing_pct = missing_pct_by_patient.min()
+        
+        # Pacientes con más de 30% y 50% missing
+        patients_above_30pct = (missing_pct_by_patient > 30).sum()
+        patients_above_50pct = (missing_pct_by_patient > 50).sum()
+        
+        # IDs de pacientes con más de 50% missing
+        high_missing_indices = missing_pct_by_patient[missing_pct_by_patient > 50].index.tolist()
+        high_missing_patient_ids = []
+        
+        # Obtener IDs de pacientes (columna 'Número' si existe)
+        if 'Número' in self.df_data.columns:
+            high_missing_patient_ids = self.df_data.loc[high_missing_indices, 'Número'].tolist()
+        else:
+            high_missing_patient_ids = [f"Paciente_{i}" for i in high_missing_indices]
+        
+        # Análisis por Sexo
+        sex_analysis = {}
+        if 'Sexo' in self.df_data.columns:
+            sex_missing = self.df_data.groupby('Sexo').apply(
+                lambda x: x.isnull().sum().sum() / (len(x.columns) * len(x)) * 100
+            )
+            sex_analysis = sex_missing.to_dict()
+        
+        # Análisis por Edad
+        age_analysis = {}
+        if 'Edad' in self.df_data.columns:
+            # Crear grupos de edad
+            age_bins = [0, 30, 50, 70, 100]
+            age_labels = ['0-30', '31-50', '51-70', '71-100']
+            self.df_data['edad_grupo'] = pd.cut(self.df_data['Edad'], bins=age_bins, labels=age_labels, right=False)
+            
+            # Calcular missing por grupo de edad de forma más simple
+            for grupo_label in age_labels:
+                grupo_mask = self.df_data['edad_grupo'] == grupo_label
+                grupo_data = self.df_data[grupo_mask]
+                
+                if len(grupo_data) > 0:
+                    missing_pct = (grupo_data.isnull().sum().sum() / (len(grupo_data.columns) * len(grupo_data))) * 100
+                    age_analysis[grupo_label] = float(missing_pct)
+                else:
+                    age_analysis[grupo_label] = 0.0
+            
+            # Eliminar columna temporal
+            self.df_data = self.df_data.drop('edad_grupo', axis=1)
+        
+        # Resultados estructurados
+        results = {
+            "max_missing_pct": float(max_missing_pct),
+            "mean_missing_pct": float(mean_missing_pct),
+            "min_missing_pct": float(min_missing_pct),
+            "patients_above_30pct": int(patients_above_30pct),
+            "patients_above_50pct": int(patients_above_50pct),
+            "high_missing_patient_ids": high_missing_patient_ids,
+            "sex_analysis": sex_analysis,
+            "age_analysis": age_analysis
+        }
+        
+        # Imprimir resultados
+        print("\n" + "="*60)
+        print("ANÁLISIS DE MISSING POR PACIENTE")
+        print("="*60)
+        print(f"Total pacientes analizados: {len(self.df_data)}")
+        print(f"Total variables analizadas: {total_columns}")
+        print(f"\nEstadísticas de missing por paciente:")
+        print(f"  Máximo missing: {max_missing_pct:.2f}%")
+        print(f"  Promedio missing: {mean_missing_pct:.2f}%")
+        print(f"  Mínimo missing: {min_missing_pct:.2f}%")
+        print(f"\nPacientes con >30% missing: {patients_above_30pct} ({patients_above_30pct/len(self.df_data)*100:.1f}%)")
+        print(f"Pacientes con >50% missing: {patients_above_50pct} ({patients_above_50pct/len(self.df_data)*100:.1f}%)")
+        
+        # Interpretación automática
+        print(f"\nINTERPRETACIÓN:")
+        if patients_above_50pct > 0:
+            print(f"  ⚠️  HAY CONCENTRACIÓN: {patients_above_50pct} pacientes con >50% missing")
+            print(f"  IDs pacientes problemáticos: {high_missing_patient_ids[:5]}{'...' if len(high_missing_patient_ids) > 5 else ''}")
+        else:
+            print(f"  ✅ NO HAY CONCENTRACIÓN: Ningún paciente con >50% missing")
+        
+        # Evaluar homogeneidad
+        cv = missing_pct_by_patient.std() / mean_missing_pct  # Coeficiente de variación
+        if cv < 0.3:
+            print(f"  ✅ DISTRIBUCIÓN HOMOGÉNEA: CV = {cv:.3f} < 0.3")
+        else:
+            print(f"  ⚠️  DISTRIBUCIÓN HETEROGÉNEA: CV = {cv:.3f} ≥ 0.3")
+        
+        # Análisis por Sexo
+        if sex_analysis:
+            print(f"\nANÁLISIS POR SEXO:")
+            for sexo, pct in sex_analysis.items():
+                print(f"  {sexo}: {pct:.2f}% missing")
+        
+        # Análisis por Edad
+        if age_analysis:
+            print(f"\nANÁLISIS POR EDAD:")
+            for edad_grupo, pct in age_analysis.items():
+                print(f"  {edad_grupo}: {float(pct):.2f}% missing")
+        
+        print("="*60)
+        
+        return results
+
+    def plot_missing_by_patient(self):
+        """
+        Genera un histograma del porcentaje de missing por paciente.
+        """
+        try:
+            import matplotlib.pyplot as plt
+            import numpy as np
+            
+            print("Generando histograma de missing por paciente...")
+            
+            # Calcular missing por paciente
+            missing_by_patient = self.df_data.isnull().sum(axis=1)
+            total_columns = len(self.df_data.columns)
+            missing_pct_by_patient = (missing_by_patient / total_columns) * 100
+            
+            # Crear histograma
+            plt.figure(figsize=(12, 6))
+            plt.hist(missing_pct_by_patient, bins=20, edgecolor='black', alpha=0.7, color='skyblue')
+            plt.title('Distribución de Missing por Paciente', fontsize=14, fontweight='bold')
+            plt.xlabel('Porcentaje de Missing (%)', fontsize=12)
+            plt.ylabel('Número de Pacientes', fontsize=12)
+            plt.grid(True, alpha=0.3)
+            
+            # Agregar línea de referencia en 50%
+            plt.axvline(x=50, color='red', linestyle='--', linewidth=2, label='Umbral 50%')
+            plt.legend()
+            
+            # Agregar estadísticas
+            mean_pct = missing_pct_by_patient.mean()
+            plt.text(0.02, 0.95, f'Media: {mean_pct:.1f}%', 
+                     transform=plt.gca().transAxes, fontsize=10,
+                     verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+            
+            plt.tight_layout()
+            plt.show()
+            
+            print("Histograma generado exitosamente")
+            
+        except ImportError:
+            print("❌ Error: matplotlib no está instalado. Instale con: pip install matplotlib")
+        except Exception as e:
+            print(f"❌ Error al generar histograma: {str(e)}")
+
     def get_dataset_info(self):
         """
         Obtiene información del dataset.
@@ -478,6 +644,75 @@ class CentenariosService:
             }
         except Exception as e:
             raise Exception(f"Error al obtener información del dataset: {str(e)}")
+    
+    def get_numeric_stats(self):
+        """
+        Calcula estadísticas descriptivas para variables numéricas.
+        Útil para generar gráficos boxplot en el frontend.
+        Usa las mismas variables que el endpoint /variables con dtype=numeric.
+        """
+        try:
+            if self.df_data.empty:
+                return {"variables": []}
+            
+            # Obtener todas las variables del servicio (como en el endpoint /variables)
+            all_vars = self.get_all_variables()
+            
+            # Filtrar solo variables numéricas (como en el endpoint /variables con dtype=numeric)
+            numeric_vars = [v for v in all_vars if v.get('dtype') == 'numeric']
+            
+            # Filtrar variables que existen en el dataset
+            numeric_vars = [v for v in numeric_vars if v['variable'] in self.df_data.columns]
+            
+            stats = []
+            total_rows = len(self.df_data)
+            
+            for var_info in numeric_vars:
+                var_name = var_info['variable']
+                col_data = self.df_data[var_name].dropna()
+                
+                if len(col_data) > 0:
+                    stats.append({
+                        "variable": var_name,
+                        "variable_label": var_info.get('variable_label', var_name),
+                        "dtype": "numeric",
+                        "mean": float(col_data.mean()),
+                        "std": float(col_data.std()),
+                        "min": float(col_data.min()),
+                        "q1": float(col_data.quantile(0.25)),
+                        "median": float(col_data.median()),
+                        "q3": float(col_data.quantile(0.75)),
+                        "max": float(col_data.max()),
+                        "valid_percentage": (len(col_data) / total_rows) * 100,
+                        "null_count": int(self.df_data[var_name].isna().sum()),
+                        "non_null_count": int(len(col_data)),
+                        "total_rows": int(total_rows)
+                    })
+            
+            return {"variables": stats}
+            
+        except Exception as e:
+            raise Exception(f"Error al calcular estadísticas numéricas: {str(e)}")
+    
+    def _get_variable_label(self, variable_name):
+        """
+        Obtiene el label de una variable desde el diccionario.
+        """
+        try:
+            # Obtener variables del diccionario
+            dict_vars = self.get_variables_from_dictionary()
+            
+            # Buscar la variable
+            for var in dict_vars:
+                if var['variable'] == variable_name:
+                    return var.get('variable_label', variable_name)
+            
+            # Si no se encuentra, retornar el nombre de la variable
+            return variable_name
+            
+        except Exception:
+            # Si hay error, retornar el nombre de la variable
+            return variable_name
             
 
 

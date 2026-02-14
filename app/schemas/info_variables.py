@@ -77,5 +77,21 @@ class StatsResponse(BaseModel):
     Respuesta con estadísticas globales del dataset.
     """
     stats: List[StatsItem]
+
+
+class DatasetInfoResponse(BaseModel):
+    """
+    Respuesta con información básica del dataset.
+    """
+    total_variables: int
+    total_rows: int
+    columns: List[str]
+
+
+class DatasetStatsResponse(BaseModel):
+    """
+    
+    Respuesta con estadísticas de completitud del dataset.
+    """
     total_variables: int
     completeness: float  # Porcentaje de completitud promedio global
