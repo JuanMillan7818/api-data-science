@@ -1,6 +1,6 @@
 from app.api.v1.graph import router as graph_router
 from fastapi import FastAPI
-from app.api.v1.utils import variables    # Importa las rutas
+from app.api.v1.utils import variables, categorical    # Importa las rutas
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="API DATA SCIENCE", version="1.0.0")
@@ -17,4 +17,5 @@ app.add_middleware(
 
 # .... REGISTRA LAS RUTAS
 app.include_router(variables.router, prefix="/api/v1")
+app.include_router(categorical.router, prefix="/api/v1")
 app.include_router(graph_router.router, prefix="/api/v1/graph", tags=["Graph"])

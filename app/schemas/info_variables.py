@@ -90,8 +90,41 @@ class DatasetInfoResponse(BaseModel):
 
 class DatasetStatsResponse(BaseModel):
     """
-    
+
     Respuesta con estadísticas de completitud del dataset.
     """
     total_variables: int
     completeness: float  # Porcentaje de completitud promedio global
+
+
+class CategoryStat(BaseModel):
+    """
+    Estadística para un valor específico de una variable categórica.
+    """
+    value: str
+    label: Optional[str] = None
+    count: int
+    percentage: float
+
+
+class CategoricalVariableStats(BaseModel):
+    """
+    Estadísticas detalladas para una variable categórica.
+    """
+    variable: str
+    variable_label: Optional[str] = None
+    total_rows: int
+    top_values: List[CategoryStat]
+    valid_percentage: Optional[float] = 0.0
+    categories: Optional[List[Category]] = []
+
+
+class CategoricalStatsResponse(BaseModel):
+    """
+    Respuesta paginada para estadísticas de variables categóricas.
+    """
+    items: List[CategoricalVariableStats]
+    total: int
+    page: int
+    size: int
+    has_more: bool
