@@ -1,0 +1,21 @@
+REPORTE DE PACIENTES CON COMPLETITUD PROBLEMÁTICA
+================================================================================
+Fecha: 2026-02-27 16:32:27
+Total pacientes analizados: 4
+
+
+📊 PACIENTES CON COMPLETITUD BAJO:
+   Cantidad: 4
+   Porcentaje: 100.0%
+   - Cédula: 28820205 (25.96% missing)
+     Variables con missing: 101 variables (primeras 10: Niveducativo, CatCalBienGen, PunCalBienGene, CatSatisSentidos, PunSatisSentidos, CatSatisSalud, PunSatisSalud, CatSatisMismo, PunSatisMismo, CatSatisActivid...)
+     Recomendación: N/A
+   - Cédula: 1148447998 (21.08% missing)
+     Variables con missing: 82 variables (primeras 10: Zonaresi, Lugnacimiento, Estacivil, CatSatisRelIntimas, PunSatisRelIntimas, ConsumSuplem, Orientación, Memoria.1, AtencyCal, Evocación...)
+     Recomendación: N/A
+   - Cédula: 20119574 (25.96% missing)
+     Variables con missing: 101 variables (primeras 10: Lugnacimiento, DiasEsfuer, CatCalBienGen, PunCalBienGene, CatSatisSentidos, PunSatisSentidos, CatSatisSalud, PunSatisSalud, CatSatisMismo, PunSatisMismo...)
+     Recomendación: N/A
+   - Cédula: 2099816 (27.76% missing)
+     Variables con missing: 108 variables (primeras 10: Lugnacimiento, Afiliación, Estacivil, Niveducativo, Religión, Tipreligión, Ocupación, Dinamometria, PuntCortDinamo, AutoPerSalud...)
+     Recomendación: N/A

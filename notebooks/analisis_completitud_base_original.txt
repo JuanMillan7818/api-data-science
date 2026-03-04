@@ -1,0 +1,102 @@
+ANÁLISIS DE COMPLETITUD POR PACIENTE - BASE ORIGINAL
+================================================================================
+
+RESUMEN DE ELIMINACIONES:
+   Base original: centenarios_metabolomica.xlsx
+   Base limpia: centenarios_metabolomica_clean.xlsx
+   Pacientes originales: 137
+   Pacientes eliminados: 7
+   Pacientes restantes: 130
+   Porcentaje eliminación: 5.1%
+
+TABLA DETALLADA DE PACIENTES ELIMINADOS:
+----------------------------------------------------------------------------------------------------
+ID         Índice   Missing    Válidos    Total    Motivo               Razón
+----------------------------------------------------------------------------------------------------
+131        7        99.38      4          648      Índice específico    Eliminación predefinida por índice
+104        17       99.38      4          648      Índice específico    Eliminación predefinida por índice
+10         33       99.38      4          648      Índice específico    Eliminación predefinida por índice
+18         123      99.38      4          648      Índice específico    Eliminación predefinida por índice
+43         63       99.38      4          648      Número específico    Eliminación por >99% missing (casos extremos)
+103        88       99.23      5          648      Número específico    Eliminación por >99% missing (casos extremos)
+16         98       33.80      429        648      Alto missing (>40%)  Eliminación recomendada por 43.19% missing
+
+================================================================================
+EXPLICACIÓN DETALLADA DE ELIMINACIONES:
+
+
+ÍNDICE ESPECÍFICO:
+   Pacientes: 4
+   IDs: [np.int64(131), np.int64(104), np.int64(10), np.int64(18)]
+   Missing promedio: 99.38%
+
+   Paciente 131 (índice 7):
+     - Missing: 99.38% (644/648 variables)
+     - Válidos: 4/648 (0.62%)
+     - Razón: Eliminación predefinida por índice
+
+   Paciente 104 (índice 17):
+     - Missing: 99.38% (644/648 variables)
+     - Válidos: 4/648 (0.62%)
+     - Razón: Eliminación predefinida por índice
+
+   Paciente 10 (índice 33):
+     - Missing: 99.38% (644/648 variables)
+     - Válidos: 4/648 (0.62%)
+     - Razón: Eliminación predefinida por índice
+
+   Paciente 18 (índice 123):
+     - Missing: 99.38% (644/648 variables)
+     - Válidos: 4/648 (0.62%)
+     - Razón: Eliminación predefinida por índice
+
+
+NÚMERO ESPECÍFICO:
+   Pacientes: 2
+   IDs: [43, 103]
+   Missing promedio: 99.31%
+
+   Paciente 43 (índice 63):
+     - Missing: 99.38% (644/648 variables)
+     - Válidos: 4/648 (0.62%)
+     - Razón: Eliminación por >99% missing (casos extremos)
+
+   Paciente 103 (índice 88):
+     - Missing: 99.23% (643/648 variables)
+     - Válidos: 5/648 (0.77%)
+     - Razón: Eliminación por >99% missing (casos extremos)
+
+
+ALTO MISSING (>40%):
+   Pacientes: 1
+   IDs: [np.int64(16)]
+   Missing promedio: 33.80%
+
+   Paciente 16 (índice 98):
+     - Missing: 33.80% (219/648 variables)
+     - Válidos: 429/648 (66.20%)
+     - Razón: Eliminación recomendada por 43.19% missing
+
+
+================================================================================
+JUSTIFICACIÓN DEL FILTRADO:
+
+1. PACIENTES ELIMINADOS POR ÍNDICE [7, 17, 33, 123]:
+   - Pacientes 131, 104, 10, 18
+   - Eliminación predefinida en el proceso de limpieza
+   - Posibles problemas de calidad o inconsistencias detectadas previamente
+
+2. PACIENTES ELIMINADOS POR NÚMERO [43, 103]:
+   - Missing >99% (casos extremos)
+   - Prácticamente sin datos válidos
+   - No aportan valor al análisis
+
+3. PACIENTE ELIMINADO POR ALTO MISSING (>40%):
+   - Paciente 33 (índice 98)
+   - Missing: 43.19% (168/389 variables)
+   - Datos insuficientes para análisis confiable
+
+RESULTADO FINAL:
+   - Dataset limpio: 131 pacientes × 389 variables
+   - Mejora en calidad de datos significativa
+   - Pacientes con datos de buena calidad para análisis

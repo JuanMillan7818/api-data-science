@@ -1,0 +1,6 @@
+
+RECOMENDACIONES - PACIENTES CON COMPLETITUD BAJA (20-40% missing):
+   - Cédula: 28820205 (25.96% missing) - PRIORIDAD ALTA
+   - Cédula: 1148447998 (21.08% missing) - PRIORIDAD ALTA
+   - Cédula: 20119574 (25.96% missing) - PRIORIDAD ALTA
+   - Cédula: 2099816 (27.76% missing) - PRIORIDAD ALTA

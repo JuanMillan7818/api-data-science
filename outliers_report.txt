@@ -1,0 +1,1127 @@
+REPORTE DE OUTLIERS - VARIABLES NUMÉRICAS
+============================================================
+Dataset: CENTENARIOS_COMPLETO_PREP.xlsx
+Fecha: 2026-03-03 14:01:14.042831
+Variables analizadas: 78
+Variables con outliers: 68
+
+
+VARIABLE: ADE
+----------------------------------------
+Total outliers: 4
+Porcentaje: 3.05%
+
+Registros outliers:
+ ADE
+18.1
+18.8
+21.2
+18.8
+
+
+VARIABLE: ALT
+----------------------------------------
+Total outliers: 4
+Porcentaje: 3.05%
+
+Registros outliers:
+ ALT
+48.3
+99.0
+43.0
+53.0
+
+
+VARIABLE: AST
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+  AST
+ 50.7
+110.0
+
+
+VARIABLE: ATalonrodilla
+----------------------------------------
+Total outliers: 10
+Porcentaje: 7.63%
+
+Registros outliers:
+ ATalonrodilla
+          18.0
+          20.5
+          17.5
+          21.5
+          20.0
+          21.0
+          34.0
+          34.0
+          33.0
+          32.5
+
+
+VARIABLE: Albumina
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Albumina
+      5.1
+      5.2
+
+
+VARIABLE: Basof
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+ Basof
+   1.6
+   1.7
+   6.5
+   2.0
+   1.7
+
+
+VARIABLE: CHCM
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ CHCM
+ 38.2
+ 25.9
+
+
+VARIABLE: Colesterol
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Colesterol
+      264.0
+      271.0
+
+
+VARIABLE: Creatin
+----------------------------------------
+Total outliers: 6
+Porcentaje: 4.58%
+
+Registros outliers:
+ Creatin
+    2.46
+    2.19
+    2.60
+    2.19
+    2.38
+    2.10
+
+
+VARIABLE: Dehidrotestos
+----------------------------------------
+Total outliers: 9
+Porcentaje: 6.87%
+
+Registros outliers:
+ Dehidrotestos
+         370.0
+         301.0
+         302.0
+         229.0
+         247.0
+         993.0
+         244.1
+         489.2
+         220.0
+
+
+VARIABLE: Dinamometria
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ Dinamometria
+         27.2
+         24.7
+         26.4
+
+
+VARIABLE: Eosinof
+----------------------------------------
+Total outliers: 12
+Porcentaje: 9.16%
+
+Registros outliers:
+ Eosinof
+    16.4
+    12.5
+    21.8
+    18.6
+    17.9
+    12.5
+    10.0
+    14.0
+    13.0
+    20.1
+    15.5
+    15.0
+
+
+VARIABLE: FC
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+   FC
+ 45.0
+116.0
+
+
+VARIABLE: Ferritina
+----------------------------------------
+Total outliers: 8
+Porcentaje: 6.11%
+
+Registros outliers:
+ Ferritina
+     872.0
+     580.6
+     742.0
+     872.0
+     424.0
+     429.0
+     679.0
+     670.0
+
+
+VARIABLE: FinCalidadVida
+----------------------------------------
+Total outliers: 8
+Porcentaje: 6.11%
+
+Registros outliers:
+ FinCalidadVida
+              0
+             15
+              0
+              0
+              0
+             13
+              0
+              0
+
+
+VARIABLE: Glicemia
+----------------------------------------
+Total outliers: 7
+Porcentaje: 5.34%
+
+Registros outliers:
+ Glicemia
+    214.0
+    185.0
+    221.0
+     24.0
+    179.0
+    242.0
+    168.0
+
+
+VARIABLE: HCM
+----------------------------------------
+Total outliers: 6
+Porcentaje: 4.58%
+
+Registros outliers:
+ HCM
+90.3
+39.0
+38.3
+20.4
+22.0
+99.1
+
+
+VARIABLE: Hematocri
+----------------------------------------
+Total outliers: 1
+Porcentaje: 0.76%
+
+Registros outliers:
+ Hematocri
+      52.6
+
+
+VARIABLE: IMC
+----------------------------------------
+Total outliers: 1
+Porcentaje: 0.76%
+
+Registros outliers:
+      IMC
+31.588613
+
+
+VARIABLE: Leuco
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ Leuco
+ 14.60
+ 14.10
+ 11.96
+
+
+VARIABLE: Linfo
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Linfo
+  60.7
+  62.2
+
+
+VARIABLE: Monoc
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+ Monoc
+  15.5
+  14.6
+  14.0
+  18.0
+  14.3
+
+
+VARIABLE: Neutrof
+----------------------------------------
+Total outliers: 6
+Porcentaje: 4.58%
+
+Registros outliers:
+ Neutrof
+    3.92
+   96.00
+    3.09
+    5.97
+    8.50
+    3.29
+
+
+VARIABLE: Nummedica
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Nummedica
+      10.0
+      16.0
+
+
+VARIABLE: PAD
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ PAD
+ 107
+  33
+
+
+VARIABLE: PCR
+----------------------------------------
+Total outliers: 11
+Porcentaje: 8.40%
+
+Registros outliers:
+ PCR
+96.0
+24.0
+12.0
+24.0
+24.0
+12.0
+48.0
+12.0
+12.0
+24.0
+20.5
+
+
+VARIABLE: Pbraquial
+----------------------------------------
+Total outliers: 1
+Porcentaje: 0.76%
+
+Registros outliers:
+ Pbraquial
+       7.5
+
+
+VARIABLE: Pdeltoideo
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Pdeltoideo
+       10.0
+        7.0
+
+
+VARIABLE: Peso
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Peso
+ 86.0
+ 80.0
+
+
+VARIABLE: Plaque
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ Plaque
+  442.0
+  393.0
+
+
+VARIABLE: PuntFinISI
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ PuntFinISI
+       20.0
+       21.0
+       19.0
+
+
+VARIABLE: PuntFinSWLS
+----------------------------------------
+Total outliers: 9
+Porcentaje: 6.87%
+
+Registros outliers:
+ PuntFinSWLS
+        12.0
+        16.0
+        17.0
+         6.0
+        17.0
+        15.0
+        15.0
+         5.0
+        15.0
+
+
+VARIABLE: PuntFinYasavage
+----------------------------------------
+Total outliers: 8
+Porcentaje: 6.11%
+
+Registros outliers:
+ PuntFinYasavage
+             9.0
+            13.0
+             9.0
+            13.0
+            12.0
+            10.0
+            15.0
+             9.0
+
+
+VARIABLE: PuntuMNA
+----------------------------------------
+Total outliers: 1
+Porcentaje: 0.76%
+
+Registros outliers:
+ PuntuMNA
+      2.0
+
+
+VARIABLE: SO2
+----------------------------------------
+Total outliers: 9
+Porcentaje: 6.87%
+
+Registros outliers:
+ SO2
+90.0
+90.0
+89.0
+90.0
+90.0
+90.0
+87.0
+90.0
+89.0
+
+
+VARIABLE: TSH
+----------------------------------------
+Total outliers: 11
+Porcentaje: 8.40%
+
+Registros outliers:
+   TSH
+  9.91
+151.00
+ 11.40
+ 11.30
+ 14.90
+100.00
+ 18.40
+ 18.60
+ 14.63
+ 16.90
+ 17.30
+
+
+VARIABLE: Talla
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ Talla
+  1.36
+  1.34
+  1.31
+
+
+VARIABLE: Testoster
+----------------------------------------
+Total outliers: 16
+Porcentaje: 12.21%
+
+Registros outliers:
+ Testoster
+    160.20
+      6.37
+      7.35
+    197.30
+     11.92
+    445.30
+     52.61
+    540.20
+    604.40
+     10.30
+     20.70
+     15.70
+     13.20
+     25.10
+    173.90
+     33.96
+
+
+VARIABLE: VCM
+----------------------------------------
+Total outliers: 8
+Porcentaje: 6.11%
+
+Registros outliers:
+  VCM
+ 75.0
+ 75.8
+ 66.0
+108.5
+ 77.6
+ 75.5
+112.4
+127.1
+
+
+VARIABLE: VPM
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ VPM
+25.8
+40.7
+
+
+VARIABLE: VSG
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+  VSG
+ 91.0
+ 90.0
+ 81.0
+110.0
+100.0
+
+
+VARIABLE: VitB12
+----------------------------------------
+Total outliers: 8
+Porcentaje: 6.11%
+
+Registros outliers:
+ VitB12
+ 2000.0
+ 1242.0
+ 2000.0
+ 1282.7
+ 1162.9
+ 1078.1
+ 1414.0
+ 1880.0
+
+
+VARIABLE: VitD
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+ VitD
+101.0
+ 93.0
+ 71.6
+471.0
+ 76.3
+
+
+VARIABLE: Edad
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+ Edad
+  122
+  108
+  114
+  108
+  108
+
+
+VARIABLE: G-CSF
+----------------------------------------
+Total outliers: 7
+Porcentaje: 5.34%
+
+Registros outliers:
+   G-CSF
+5.166986
+9.497601
+6.414759
+6.306800
+8.371065
+5.404909
+7.210199
+
+
+VARIABLE: GM-CSF
+----------------------------------------
+Total outliers: 17
+Porcentaje: 12.98%
+
+Registros outliers:
+   GM-CSF
+ 0.584224
+ 5.388123
+ 3.078825
+ 0.865614
+ 1.061979
+ 1.120801
+ 2.232352
+ 0.797904
+ 1.106472
+ 1.582825
+18.854812
+ 0.831273
+ 1.241465
+ 0.769783
+ 1.250876
+ 1.709542
+ 0.463156
+
+
+VARIABLE: IFN_a
+----------------------------------------
+Total outliers: 20
+Porcentaje: 15.27%
+
+Registros outliers:
+    IFN_a
+ 6.356070
+ 2.812061
+19.329852
+ 0.796270
+ 9.784146
+ 0.942250
+ 3.938079
+ 1.908016
+ 3.880895
+ 0.654148
+ 0.856932
+ 0.501499
+ 1.016002
+ 0.878105
+ 0.347430
+ 1.237963
+ 0.979687
+ 1.617530
+ 0.455869
+ 2.391729
+
+
+VARIABLE: IL_10
+----------------------------------------
+Total outliers: 4
+Porcentaje: 3.05%
+
+Registros outliers:
+    IL_10
+ 4.544651
+ 8.944323
+ 8.895953
+18.383318
+
+
+VARIABLE: IL_12p70
+----------------------------------------
+Total outliers: 22
+Porcentaje: 16.79%
+
+Registros outliers:
+ IL_12p70
+ 0.626822
+ 0.571181
+ 0.479280
+ 0.481016
+ 0.418549
+ 0.291015
+ 1.358329
+ 0.423765
+ 0.386100
+ 0.329961
+ 1.559165
+ 0.617467
+ 0.504593
+ 1.146656
+ 0.562729
+ 0.790307
+ 1.098495
+ 0.696900
+ 0.537898
+ 1.167106
+ 0.296201
+ 0.508094
+
+
+VARIABLE: IL_13
+----------------------------------------
+Total outliers: 14
+Porcentaje: 10.69%
+
+Registros outliers:
+   IL_13
+0.018028
+0.148696
+0.170676
+0.076628
+0.084177
+0.261053
+0.188246
+0.101052
+0.196857
+0.219516
+0.005048
+0.108698
+0.603155
+0.083037
+
+
+VARIABLE: IL_17A
+----------------------------------------
+Total outliers: 20
+Porcentaje: 15.27%
+
+Registros outliers:
+   IL_17A
+ 0.456996
+15.123652
+ 0.891902
+ 0.669241
+ 1.171401
+36.202333
+12.660126
+ 5.120700
+ 1.275475
+ 2.126635
+ 0.518902
+ 9.388615
+ 0.483807
+ 0.859541
+ 0.791020
+ 0.814873
+ 1.219179
+ 1.225562
+ 0.504297
+ 1.610284
+
+
+VARIABLE: IL_1b (pg/ml) 
+----------------------------------------
+Total outliers: 19
+Porcentaje: 14.50%
+
+Registros outliers:
+ IL_1b (pg/ml) 
+       5.415559
+       9.456180
+       9.493060
+       6.078990
+       5.757371
+       6.605538
+       6.835171
+       7.817884
+      15.168748
+      17.812103
+      11.739394
+     100.488453
+      16.814115
+     416.838941
+      23.736587
+      21.355979
+      22.132131
+      39.524085
+      53.371248
+
+
+VARIABLE: IL_2
+----------------------------------------
+Total outliers: 25
+Porcentaje: 19.08%
+
+Registros outliers:
+     IL_2
+ 5.217058
+ 1.792817
+19.142326
+17.261875
+ 0.276909
+10.303680
+ 0.994886
+ 5.041879
+ 0.478508
+ 2.834095
+ 8.075665
+ 0.008382
+49.343681
+ 0.916038
+ 0.923888
+ 0.738970
+ 3.344477
+ 0.815470
+ 2.765325
+24.384211
+ 3.199684
+ 0.534583
+ 0.944435
+ 0.301032
+11.981870
+
+
+VARIABLE: IL_4
+----------------------------------------
+Total outliers: 11
+Porcentaje: 8.40%
+
+Registros outliers:
+    IL_4
+4.041478
+7.426022
+2.099237
+2.503235
+5.447393
+2.096062
+2.668293
+7.977076
+2.829322
+3.565330
+3.667663
+
+
+VARIABLE: IL_5
+----------------------------------------
+Total outliers: 22
+Porcentaje: 16.79%
+
+Registros outliers:
+    IL_5
+1.297107
+2.489247
+3.242729
+1.651169
+3.849518
+2.049407
+2.080175
+2.261765
+3.734585
+1.547682
+1.826440
+0.403892
+1.334262
+4.403679
+1.627152
+1.360141
+3.050537
+0.244661
+1.724871
+1.889415
+2.515585
+1.290080
+
+
+VARIABLE: IL_6
+----------------------------------------
+Total outliers: 14
+Porcentaje: 10.69%
+
+Registros outliers:
+       IL_6
+  58.321997
+ 147.277424
+ 121.234848
+ 153.269344
+  65.482263
+  78.149567
+7726.248881
+ 985.992447
+1198.794095
+ 698.778449
+ 116.373329
+ 406.047673
+1624.788872
+ 328.567538
+
+
+VARIABLE: IL_8
+----------------------------------------
+Total outliers: 20
+Porcentaje: 15.27%
+
+Registros outliers:
+         IL_8
+   605.517915
+   824.363791
+   729.097664
+   337.710295
+  3659.963523
+ 10483.050021
+  1724.860214
+   256.085173
+   645.786244
+   533.641965
+   257.170491
+   360.591410
+ 61287.484080
+ 25963.621462
+257195.834484
+ 15744.720943
+  4115.769922
+  5492.493382
+ 57528.648032
+ 33039.485138
+
+
+VARIABLE: Incertidumbre
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ Incertidumbre
+     21.032914
+     19.692980
+     23.000819
+
+
+VARIABLE: MCP-1
+----------------------------------------
+Total outliers: 7
+Porcentaje: 5.34%
+
+Registros outliers:
+     MCP-1
+136.822798
+214.421441
+136.549548
+182.124834
+266.042316
+155.761789
+176.136664
+
+
+VARIABLE: MIG
+----------------------------------------
+Total outliers: 15
+Porcentaje: 11.45%
+
+Registros outliers:
+         MIG
+7.063789e+08
+1.848804e+05
+3.360478e+05
+2.853182e+05
+1.929262e+05
+5.312459e+05
+4.041580e+05
+2.801641e+05
+6.005550e+08
+1.746358e+14
+2.660315e+05
+2.705606e+05
+5.070221e+11
+2.904873e+05
+4.548437e+05
+
+
+VARIABLE: MPO total ng/mL
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ MPO total ng/mL
+          168.14
+          182.50
+          157.86
+
+
+VARIABLE: MPO-DNA 10% estandar
+----------------------------------------
+Total outliers: 2
+Porcentaje: 1.53%
+
+Registros outliers:
+ MPO-DNA 10% estandar
+                 8.92
+                 7.82
+
+
+VARIABLE: MPO-DNA 2% estandar
+----------------------------------------
+Total outliers: 5
+Porcentaje: 3.82%
+
+Registros outliers:
+ MPO-DNA 2% estandar
+                0.75
+                0.76
+                1.80
+                1.66
+                1.52
+
+
+VARIABLE: MPO_DNA OD
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ MPO_DNA OD
+     0.8255
+     2.3635
+     2.1695
+
+
+VARIABLE: Mdna-CN-Cell
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ Mdna-CN-Cell
+   951.739360
+   891.107358
+  1040.787047
+
+
+VARIABLE: RANTES
+----------------------------------------
+Total outliers: 4
+Porcentaje: 3.05%
+
+Registros outliers:
+     RANTES
+ 818.421373
+3297.817392
+3659.605192
+4176.982766
+
+
+VARIABLE: TNF
+----------------------------------------
+Total outliers: 20
+Porcentaje: 15.27%
+
+Registros outliers:
+       TNF
+ 34.586830
+ 36.012430
+ 21.224255
+ 39.009332
+ 41.319553
+ 35.655654
+ 28.437350
+ 74.961346
+ 12.105631
+ 32.601584
+ 41.322575
+ 12.081521
+ 99.118569
+175.704334
+384.903902
+ 30.137351
+ 76.294123
+ 82.611226
+282.847555
+165.202012
+
+
+VARIABLE: whoqol_age_global
+----------------------------------------
+Total outliers: 3
+Porcentaje: 2.29%
+
+Registros outliers:
+ whoqol_age_global
+               3.8
+             -25.0
+               0.0
+

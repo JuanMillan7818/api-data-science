@@ -1,2 +1,4 @@
 Pacientes con >50% missing:
 
+43
+103

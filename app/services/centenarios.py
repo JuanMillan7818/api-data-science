@@ -7,8 +7,9 @@ class CentenariosService:
     PATH_FILE = Path(__file__).resolve(
     ).parents[2] / "centenarios/centenarios_diccionario.xlsx"
     PATH_DATA_FILE = Path(__file__).resolve(
-        # ← Usar archivo limpio
-    ).parents[2] / "centenarios/centenarios_metabolomica_clean.xlsx"
+        # ← Usar archivo completo
+    ).parents[2] / "centenarios/CENTENARIOS_COMPLETO_PRE.xlsx"
+    
 
     """
     def __init__(self):
@@ -20,7 +21,8 @@ class CentenariosService:
 
         # Cargar dataset UNA sola vez
         if self.PATH_DATA_FILE.exists():
-            self.df_data = pd.read_excel(self.PATH_DATA_FILE)
+            # Ignorar primera fila (header duplicado) y empezar desde fila 1
+            self.df_data = pd.read_excel(self.PATH_DATA_FILE, header=1)
         else:
             self.df_data = pd.DataFrame()
         self.completeness_map = self._calculate_completeness()
@@ -310,7 +312,7 @@ class CentenariosService:
         Retorna estadísticas de completitud paginadas.
         """
         # Usar el método que ya combina todo: 648 variables
-        variables = self.get_all_variables()
+        variables = self.get_variables_from_dataset()
 
         # Filtrar por tipo de dato (dtype) si se proporciona
         if dtype and dtype != "all":

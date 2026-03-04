@@ -1,0 +1,1773 @@
+Variables con ≥90% de completitud: 354
+Generado: 2026-03-02 08:21:21.934459
+==================================================
+Unnamed: 0
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 1
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 2
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 3
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 4
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 5
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 6
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 7
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 8
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 9
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 10
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 11
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 12
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 13
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 14
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 15
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 16
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 17
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 18
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 19
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 20
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 21
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 22
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 23
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 24
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 25
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 26
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 27
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 28
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 29
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 30
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ANTECEDENTES PATOLÓGICOS
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 32
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 33
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 34
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 35
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 36
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 37
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 38
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 39
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 40
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 41
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 42
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 43
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 44
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ANTECEDENTES FAMILIARES AUTOINMUNES
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 46
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 47
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 48
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 49
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 50
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 51
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 52
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 53
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 54
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 55
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 56
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 57
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 58
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 59
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 60
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 61
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 62
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 63
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 64
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 65
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 66
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 67
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 68
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 69
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 70
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 71
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+FRAGILIDAD
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 74
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 75
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 76
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 77
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 78
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 79
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 80
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+SARCOPENIA
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 82
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 83
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 84
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 85
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 86
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 87
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 88
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 89
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 90
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+CALIDAD DE VIDA
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 92
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 93
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 94
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 95
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 96
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 97
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 98
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 99
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 100
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 101
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 102
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 103
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 104
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 105
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 106
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 107
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 108
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 109
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 110
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 111
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 112
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 113
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 114
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 115
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 116
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 119
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 120
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 121
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 122
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 123
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 124
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 125
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 126
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 127
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 128
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 129
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 130
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 131
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 132
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 133
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 134
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 135
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 136
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 137
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 138
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+MINI NUTRITIONAL ASSESSMENT
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 140
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 141
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 142
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 143
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 144
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 145
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 146
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 147
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 148
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 149
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 150
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 151
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 152
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 153
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 154
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 155
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 156
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 157
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 158
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 159
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 160
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 161
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 162
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 163
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 164
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 165
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 166
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 167
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 168
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 169
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 170
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 171
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 172
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 173
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 174
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 175
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 176
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 177
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 178
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 179
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 180
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 181
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 183
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ÍNDICE DE BARTHEL
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 185
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 186
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 187
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 188
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 189
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 190
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 191
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 192
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 193
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 194
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 195
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 196
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 197
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 198
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 199
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 200
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 201
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 202
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 203
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 204
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ESCALA DE LAWTON Y BRODY
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 206
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 207
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 208
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 209
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 210
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 211
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 212
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 213
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+SPPB
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 215
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 216
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 217
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 218
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 219
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 220
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 221
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 222
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 223
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 224
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ESCALA DOWNTON
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 226
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 227
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 228
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 229
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 230
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 231
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 232
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ÍNDICE CDR
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 234
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 235
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 236
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 237
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 238
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 239
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 240
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 249
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 250
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ESCALA YASAVAGE
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 252
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 253
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 254
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 255
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 256
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 257
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 258
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 259
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 260
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 261
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 262
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 263
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 264
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 265
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 266
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 267
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 268
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 269
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 270
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 271
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 272
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 273
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 274
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 275
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 276
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 277
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 278
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 279
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 280
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 281
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 282
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+GAI-SF
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 284
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 285
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 286
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 287
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 288
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 289
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 290
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 291
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 292
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 293
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 294
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 295
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 296
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 297
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 298
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 299
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Insomnia Severity Index
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 301
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 302
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 303
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 304
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 305
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 306
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 307
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 308
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 309
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 310
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 311
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 312
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 313
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 314
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 315
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+ESCALA SWLS
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 317
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 318
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 319
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 320
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 321
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 322
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 323
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 324
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 325
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 326
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+PROSOCIALIDAD
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 328
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 329
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 330
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 331
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 332
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 333
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 334
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 335
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 336
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 337
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 338
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 339
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+BIOQUIMICA
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 341
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 342
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 343
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 344
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 345
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 346
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 347
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 348
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 349
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 350
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 352
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 353
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 354
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 355
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 356
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 357
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 359
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 360
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 361
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 362
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 363
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 365
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 366
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+DNA MITOCONDRIAL
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+
+Unnamed: 422
+  └─ Descripción: Sin descripción (no en diccionario)
+  └─ Tipo: unknown
+  └─ Completitud: 0.0%
+

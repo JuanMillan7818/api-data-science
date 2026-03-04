@@ -1,0 +1,272 @@
+VARIABLES ELIMINADAS (<70% COMPLETITUD)
+============================================================
+Total variables originales: 691
+Variables eliminadas: 263
+Variables mantenidas: 428
+Porcentaje eliminado: 38.1%
+
+DETALLE DE VARIABLES ELIMINADAS:
+----------------------------------------
+  1. Column_121 - 68.94% completitud
+  2. Column_471 - 68.18% completitud
+  3. Column_193 - 67.42% completitud
+  4. Column_194 - 67.42% completitud
+  5. Column_452 - 64.39% completitud
+  6. Column_453 - 64.39% completitud
+  7. Column_454 - 64.39% completitud
+  8. Column_455 - 64.39% completitud
+  9. Column_456 - 64.39% completitud
+ 10. Column_457 - 64.39% completitud
+ 11. MOCA - 62.12% completitud
+ 12. Column_318 - 61.36% completitud
+ 13. Column_319 - 61.36% completitud
+ 14. Column_320 - 61.36% completitud
+ 15. Column_321 - 61.36% completitud
+ 16. Column_322 - 61.36% completitud
+ 17. Column_323 - 61.36% completitud
+ 18. Column_324 - 61.36% completitud
+ 19. Column_459 - 57.58% completitud
+ 20. Column_463 - 57.58% completitud
+ 21. Column_450 - 56.82% completitud
+ 22. Column_462 - 56.82% completitud
+ 23. Column_470 - 56.82% completitud
+ 24. Column_474 - 54.55% completitud
+ 25. Column_52 - 46.97% completitud
+ 26. Column_71 - 45.45% completitud
+ 27. ATENCIÓN DOMICILIARIA - 44.7% completitud
+ 28. Column_382 - 42.42% completitud
+ 29. Column_486 - 42.42% completitud
+ 30. Column_381 - 37.88% completitud
+ 31. Column_389 - 37.88% completitud
+ 32. Column_383 - 32.58% completitud
+ 33. Column_384 - 31.82% completitud
+ 34. INMUNOSENESCENCIA - 27.27% completitud
+ 35. Column_546 - 27.27% completitud
+ 36. Column_547 - 27.27% completitud
+ 37. Column_548 - 27.27% completitud
+ 38. Column_549 - 27.27% completitud
+ 39. Column_550 - 27.27% completitud
+ 40. Column_551 - 27.27% completitud
+ 41. Column_552 - 27.27% completitud
+ 42. Column_553 - 27.27% completitud
+ 43. Column_554 - 27.27% completitud
+ 44. Column_555 - 27.27% completitud
+ 45. Column_556 - 27.27% completitud
+ 46. Column_557 - 27.27% completitud
+ 47. Column_558 - 27.27% completitud
+ 48. Column_559 - 27.27% completitud
+ 49. Column_560 - 27.27% completitud
+ 50. Column_561 - 27.27% completitud
+ 51. Column_562 - 27.27% completitud
+ 52. Column_563 - 27.27% completitud
+ 53. Column_564 - 27.27% completitud
+ 54. Column_565 - 27.27% completitud
+ 55. Column_566 - 27.27% completitud
+ 56. Column_567 - 27.27% completitud
+ 57. Column_568 - 27.27% completitud
+ 58. Column_569 - 27.27% completitud
+ 59. Column_570 - 27.27% completitud
+ 60. Column_571 - 27.27% completitud
+ 61. Column_572 - 27.27% completitud
+ 62. Column_573 - 27.27% completitud
+ 63. Column_574 - 27.27% completitud
+ 64. Column_575 - 27.27% completitud
+ 65. Column_576 - 27.27% completitud
+ 66. Column_577 - 27.27% completitud
+ 67. Column_578 - 27.27% completitud
+ 68. Column_579 - 27.27% completitud
+ 69. Column_580 - 27.27% completitud
+ 70. Column_581 - 27.27% completitud
+ 71. Column_582 - 27.27% completitud
+ 72. Column_583 - 27.27% completitud
+ 73. Column_584 - 27.27% completitud
+ 74. Column_585 - 27.27% completitud
+ 75. Column_586 - 27.27% completitud
+ 76. Column_587 - 27.27% completitud
+ 77. Column_588 - 27.27% completitud
+ 78. Column_589 - 27.27% completitud
+ 79. Column_590 - 27.27% completitud
+ 80. Column_591 - 27.27% completitud
+ 81. Column_592 - 27.27% completitud
+ 82. Column_593 - 27.27% completitud
+ 83. Column_594 - 27.27% completitud
+ 84. Column_595 - 27.27% completitud
+ 85. Column_596 - 27.27% completitud
+ 86. Column_597 - 27.27% completitud
+ 87. Column_598 - 27.27% completitud
+ 88. Column_599 - 27.27% completitud
+ 89. Column_600 - 27.27% completitud
+ 90. Column_601 - 27.27% completitud
+ 91. Column_602 - 27.27% completitud
+ 92. Column_603 - 27.27% completitud
+ 93. Column_604 - 27.27% completitud
+ 94. Column_605 - 27.27% completitud
+ 95. Column_606 - 27.27% completitud
+ 96. Column_607 - 27.27% completitud
+ 97. Column_608 - 27.27% completitud
+ 98. Column_609 - 27.27% completitud
+ 99. Column_610 - 27.27% completitud
+100. Column_611 - 27.27% completitud
+101. Column_612 - 27.27% completitud
+102. Column_613 - 27.27% completitud
+103. Column_614 - 27.27% completitud
+104. Column_615 - 27.27% completitud
+105. Column_616 - 27.27% completitud
+106. Column_617 - 27.27% completitud
+107. Column_618 - 27.27% completitud
+108. Column_619 - 27.27% completitud
+109. Column_620 - 27.27% completitud
+110. Column_621 - 27.27% completitud
+111. Column_622 - 27.27% completitud
+112. Column_623 - 27.27% completitud
+113. Column_624 - 27.27% completitud
+114. Column_625 - 27.27% completitud
+115. Column_626 - 27.27% completitud
+116. Column_627 - 27.27% completitud
+117. Column_628 - 27.27% completitud
+118. Column_629 - 27.27% completitud
+119. Column_630 - 27.27% completitud
+120. Column_631 - 27.27% completitud
+121. Column_632 - 27.27% completitud
+122. Column_633 - 27.27% completitud
+123. Column_634 - 27.27% completitud
+124. Column_635 - 27.27% completitud
+125. Column_636 - 27.27% completitud
+126. Column_637 - 27.27% completitud
+127. Column_638 - 27.27% completitud
+128. Column_639 - 27.27% completitud
+129. Column_640 - 27.27% completitud
+130. Column_641 - 27.27% completitud
+131. Column_642 - 27.27% completitud
+132. Column_643 - 27.27% completitud
+133. Column_644 - 27.27% completitud
+134. Column_645 - 27.27% completitud
+135. Column_646 - 27.27% completitud
+136. Column_647 - 27.27% completitud
+137. Column_648 - 27.27% completitud
+138. Column_649 - 27.27% completitud
+139. Column_650 - 27.27% completitud
+140. Column_651 - 27.27% completitud
+141. Column_652 - 27.27% completitud
+142. Column_653 - 27.27% completitud
+143. Column_654 - 27.27% completitud
+144. Column_655 - 27.27% completitud
+145. Column_656 - 27.27% completitud
+146. Column_657 - 27.27% completitud
+147. Column_658 - 27.27% completitud
+148. Column_659 - 27.27% completitud
+149. Column_660 - 27.27% completitud
+150. Column_661 - 27.27% completitud
+151. Column_662 - 27.27% completitud
+152. Column_663 - 27.27% completitud
+153. Column_664 - 27.27% completitud
+154. Column_665 - 27.27% completitud
+155. Column_666 - 27.27% completitud
+156. Column_667 - 27.27% completitud
+157. Column_668 - 27.27% completitud
+158. Column_669 - 27.27% completitud
+159. Column_670 - 27.27% completitud
+160. Column_671 - 27.27% completitud
+161. Column_672 - 27.27% completitud
+162. Column_673 - 27.27% completitud
+163. Column_674 - 27.27% completitud
+164. Column_675 - 27.27% completitud
+165. Column_676 - 27.27% completitud
+166. Column_677 - 27.27% completitud
+167. Column_678 - 27.27% completitud
+168. Column_679 - 27.27% completitud
+169. Column_680 - 27.27% completitud
+170. Column_681 - 27.27% completitud
+171. Column_682 - 27.27% completitud
+172. Column_683 - 27.27% completitud
+173. Column_684 - 27.27% completitud
+174. Column_685 - 27.27% completitud
+175. Column_686 - 27.27% completitud
+176. Column_687 - 27.27% completitud
+177. Column_688 - 27.27% completitud
+178. Column_485 - 25.76% completitud
+179. Column_467 - 25.0% completitud
+180. Column_69 - 24.24% completitud
+181. Column_67 - 20.45% completitud
+182. Column_139 - 17.42% completitud
+183. Column_475 - 17.42% completitud
+184. Column_127 - 16.67% completitud
+185. NEUROIMAGEN - 16.67% completitud
+186. Column_493 - 16.67% completitud
+187. Column_34 - 14.39% completitud
+188. Column_35 - 14.39% completitud
+189. Column_36 - 14.39% completitud
+190. Column_116 - 13.64% completitud
+191. Column_135 - 13.64% completitud
+192. Column_387 - 13.64% completitud
+193. Column_73 - 12.88% completitud
+194. Column_95 - 12.88% completitud
+195. Column_386 - 12.88% completitud
+196. MANIFESTACIONES FASE AGUDA COVID-19 - 12.12% completitud
+197. Column_77 - 12.12% completitud
+198. Column_78 - 12.12% completitud
+199. Column_79 - 12.12% completitud
+200. Column_80 - 12.12% completitud
+201. Column_81 - 12.12% completitud
+202. Column_82 - 12.12% completitud
+203. Column_83 - 12.12% completitud
+204. Column_84 - 12.12% completitud
+205. Column_85 - 12.12% completitud
+206. Column_86 - 12.12% completitud
+207. Column_87 - 12.12% completitud
+208. Column_88 - 12.12% completitud
+209. Column_89 - 12.12% completitud
+210. Column_90 - 12.12% completitud
+211. Column_91 - 12.12% completitud
+212. Column_92 - 12.12% completitud
+213. Column_93 - 12.12% completitud
+214. MANIFESTACIONES POSCOVID-19 - 12.12% completitud
+215. Column_97 - 12.12% completitud
+216. Column_98 - 12.12% completitud
+217. Column_99 - 12.12% completitud
+218. Column_100 - 12.12% completitud
+219. Column_101 - 12.12% completitud
+220. Column_102 - 12.12% completitud
+221. Column_103 - 12.12% completitud
+222. Column_104 - 12.12% completitud
+223. Column_105 - 12.12% completitud
+224. Column_106 - 12.12% completitud
+225. Column_107 - 12.12% completitud
+226. Column_108 - 12.12% completitud
+227. Column_109 - 12.12% completitud
+228. Column_110 - 12.12% completitud
+229. Column_111 - 12.12% completitud
+230. Column_112 - 12.12% completitud
+231. Column_113 - 12.12% completitud
+232. Column_114 - 12.12% completitud
+233. Column_94 - 11.36% completitud
+234. Column_115 - 11.36% completitud
+235. Column_118 - 10.61% completitud
+236. Column_145 - 10.61% completitud
+237. Column_123 - 7.58% completitud
+238. Column_143 - 7.58% completitud
+239. Column_476 - 7.58% completitud
+240. Column_125 - 6.82% completitud
+241. Column_131 - 6.82% completitud
+242. Column_124 - 6.06% completitud
+243. Column_146 - 6.06% completitud
+244. Column_137 - 4.55% completitud
+245. Column_72 - 3.79% completitud
+246. Column_75 - 3.79% completitud
+247. Column_129 - 3.03% completitud
+248. Column_141 - 3.03% completitud
+249. Column_488 - 2.27% completitud
+250. Column_489 - 2.27% completitud
+251. Column_490 - 2.27% completitud
+252. Column_74 - 1.52% completitud
+253. Column_133 - 1.52% completitud
+254. Column_9 - 0.76% completitud
+255. Column_10 - 0.76% completitud
+256. Column_478 - 0.76% completitud
+257. Column_479 - 0.76% completitud
+258. Column_480 - 0.76% completitud
+259. Column_481 - 0.76% completitud
+260. Column_482 - 0.76% completitud
+261. Column_483 - 0.76% completitud
+262. Column_487 - 0.76% completitud
+263. Column_492 - 0.76% completitud

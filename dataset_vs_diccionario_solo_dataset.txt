@@ -1,0 +1,43 @@
+Variables solo en dataset (41):
+==================================================
+ACA_IgG
+ACA_IgM
+AMA M2
+AusenciaComorb
+B2GPI_IgG
+B2GPI_IgM
+CEDULA
+CENP-B
+Caja
+CatSatisVida.1
+DSF70
+Edad
+Edema.2
+Enfneuro.1
+HipotFinBioq
+Histones
+Jo-1
+Ku
+Lenguaje.1
+Lugnacimiento
+MPO total ng/mL
+MPO-DNA 10% estandar
+MPO-DNA 2% estandar
+MPO_DNA OD
+Memoria.1
+Mi-2
+Nucleosomes
+Número
+P0
+PCNA
+PM-Scl
+PunSatisVida.1
+SS-A/Ro52
+SS-A/Ro60
+SS-B/La
+Scl70
+SmD1
+TPO
+Tg
+U1-snRNP
+dsDNA

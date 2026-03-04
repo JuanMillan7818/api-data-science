@@ -1,0 +1,23 @@
+REPORTE DE COMPARACIÓN DE DICCIONARIOS
+==================================================
+Diccionario antiguo: centenarios_diccionario.xlsx
+Diccionario nuevo: CENTENARIOS actualizado.xlsx
+Fecha: 2026-02-23 22:18:54.125192
+
+RESUMEN:
+- Variables solo en antiguo: 0
+- Variables solo en nuevo: 1
+- Variables comunes: 459
+- Variables con diferencias: 1
+
+VARIABLES AGREGADAS:
+  - VacCOVID
+
+VARIABLES MODIFICADAS:
+
+CatCDR:
+  • Código 3: 'demencia moderada (CDR 2)' → 'Demencia moderada (CDR 9,5 - 15,5)'
+  • Código 1: 'demencia cuestinable (CDR 0,5)' → 'Afectación cognitiva cuestionable (CDR 0,5 - 4)'
+  • Código 4: 'demencia severa (CDR 3)' → 'Demencia severa (CDR 16 - 18)'
+  • Código 2: 'demencia leve (CDR 1)' → 'Demencia leve (CDR 4,5 - 9)'
+  • Código 0: 'no demencia (CDR 0)' → 'Normal (CDR 0)'
